@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primaryBtn {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 40px 5px 40px;
+    color: #222222;
+    font-style: bold;
+    border: none;
+}
+
+.primaryBtn:hover {
+    transition: 0.2s;
+    transform: scale(1.06);
+}

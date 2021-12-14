@@ -1,0 +1,15 @@
+.order-card-wrapper {
+    width: 31.333333%;
+    margin: 1% 1% 1% 1%;
+}
+
+.order-card-wrapper img {
+    width: 100%;
+}
+
+.p-btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}

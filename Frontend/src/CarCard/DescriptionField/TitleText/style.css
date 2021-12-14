@@ -1,0 +1,18 @@
+.blockWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textLabel {
+    color: #969696;
+    font-size: 15px;
+}
+
+.textLabel:first-child {
+    margin-left: 8px;
+}
+
+.textLabel:last-child {
+    margin-right: 12px;
+}

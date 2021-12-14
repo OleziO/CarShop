@@ -1,0 +1,57 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    background-color: #000000;
+    padding: 10vh;
+}
+
+.contact-wrapper h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 12vh;
+}
+
+.section-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-wrapper h3 {
+    color: #E8DC20;
+}
+
+.section-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-wrapper section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.work-days {
+    width: 18vw;
+}
+
+.days-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-header {
+    font-size: 4vw!important;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.7);
+    justify-self: end;
+    align-self: center;
+    position: fixed;
+    bottom: 7vh;
+}

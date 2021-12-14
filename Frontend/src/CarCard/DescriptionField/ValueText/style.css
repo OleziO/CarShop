@@ -1,0 +1,19 @@
+.blockWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carContentWrapper {
+    line-height: 1.3vh;
+    font-size: 18px;
+    color: white;
+}
+
+.carContentWrapper:first-child {
+    margin-left: 8px;
+}
+
+.carContentWrapper:last-child {
+    margin-right: 12px;
+}

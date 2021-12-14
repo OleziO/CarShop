@@ -1,0 +1,11 @@
+.descriptionWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.borderText {
+    border-bottom: 1px solid #969696;
+}

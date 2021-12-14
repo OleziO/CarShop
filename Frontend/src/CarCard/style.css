@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carCard {
+    width: 31.333333%;
+    margin: 1% 1% 1% 1%;
+}
+
+.borderText {
+    border-bottom: 1px solid #969696;
+}
+
+.cardTitle {
+    padding: 1vh;
+}
+
+.carCard:hover {
+    transition: 0.2s;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.carCard img{
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+.buttonGroup {
+    width: 100%;
+    padding: 15px 12px 5px 8px;
+    display: flex;
+    justify-content: space-between;
+}

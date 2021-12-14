@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuWrapper {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-color: #2F2F2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #cfc4c4; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #AAAAAA; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7c7c7c; 
+  }
+  
+
+  .logo-link{ 
+      margin-top: 4vh;
+      margin-bottom: 4vh;
+      width: 80%;
+  }
+
+  .shopLogo {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .manuSection {
+      color: white;
+      text-decoration: none;
+      font-size: large;
+      margin-bottom: 10px;
+  }
+
+  .manuSection:hover {
+      color: white;
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+  .checkedSection {
+      color: #D1CE21;
+  }
+
+  .checkedSection:hover {
+    color: #D1CE21;
+}

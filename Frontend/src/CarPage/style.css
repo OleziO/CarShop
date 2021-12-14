@@ -1,0 +1,46 @@
+.car-page-wrapper {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    color: white;
+    overflow: hidden;
+}
+
+.pic-block {
+    width: 48%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-page-btn-group {
+    margin-top: 5vh;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-block img {
+    width: 100%;
+}
+
+.car-description-block {
+    width: 48%;
+    margin: auto;
+}
+
+.car-title {
+    padding: 1vh 0 0 0;
+}
+
+
+.car-price {
+    color: #F0DC20;
+    border-bottom: 2px solid white;
+    padding-bottom: 3vh;
+}
