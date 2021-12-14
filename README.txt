@@ -1,3 +1,5 @@
+Запуск фронт і бек в різних терміналах
+
 Запуск фронта: npm run startFront
 Запуск беку: npm run startBack
 
