@@ -34,7 +34,7 @@ export default function CarPage(props) {
         <>
         <div className="car-page-wrapper">
             <div className="pic-block">
-                <img src={"data:image/jpeg;base64,"+car.pic} alt="" />
+                <img src={car.pic} alt="" />
                 <div className="car-page-btn-group" onClick={buyForm}>
                     <Link to="/cars"><PrimaryButton text="Назад" /></Link>
                     <SecondaryButton text="Купити" />
